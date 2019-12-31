@@ -1,0 +1,5 @@
+.DS_Store
+.terraform
+lock.json
+*.tfstate
+*.tfstate.backup
