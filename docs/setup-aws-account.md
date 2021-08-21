@@ -27,4 +27,4 @@ If everything is correct, we can create the user by clicking the "_Create User_"
 
     ![User List](../images/setup/tf-06.png)
 
-At this point, our AWS account setup is complete. Now we need to test in from the Terraform.
+At this point, our AWS account setup is complete. Now we need to test access our AWS from the Terraform.

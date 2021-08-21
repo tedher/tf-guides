@@ -36,7 +36,7 @@ The ingress define the inbound rules. In this case we define the following:
 - The end port: 22
 - List of CIDR blocks: 0.0.0.0/0 (all IP address)
 
-The ingress define the inbound rules. In this case we define the following:
+The egress define the outbound rules. In this case we define the following:
 - Protocol: -1 (all)
 - The start port: 0
 - The end port: 0
