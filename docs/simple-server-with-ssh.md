@@ -61,11 +61,7 @@ After adding the security group, we can view the Terraform execution plan:
 terraform plan
 ```
 
-![Terraform Plan-1](../images/simple-ssh/tf-ss-02.png)
-
-![Terraform Plan-2](../images/simple-ssh/tf-ss-03.png)
-
-If everything is OK, we can apply it:
+If everything is OK, we can apply it using the following command:
 ```
 terraform apply
 ```
@@ -73,12 +69,10 @@ terraform apply
 ### Checking the SSH Access
 
 In the EC2 dashboard, we can see that the instance now has `allow_ssh` security group.
-![EC2 allow_ssh Security Group](../images/simple-ssh/tf-ss-04.png)
 
 To test the allow_ssh security group, we will connect to the instance using web browser:
 - Select the EC2 instance.
 - Click the `Connect` button
-![EC2 Connect](../images/simple-ssh/tf-ss-05.png)
 
 In the `Connection Method` choose `EC2 Instance Connect (browser-based SSH connection)`
 ![EC2 Connection Method](../images/simple-ssh/tf-ss-06.png)
